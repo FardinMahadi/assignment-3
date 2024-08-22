@@ -31,11 +31,16 @@
       .font-manrope {
         font-family: "Manrope", sans-serif;
       }
+
+      .secondary-text {
+        color: #494949;
+        font-weight: 500;
+      }
     </style>
   </head>
   <body class="font-manrope">
     <!-- header -->
-    <header class="bg-[#f7f7f7] pb-24">
+    <header class="bg-gradient-to-b from-[#f3f3f3] to-white pb-24">
       <!-- navbar -->
       <div
         class="navbar flex justify-between md:container md:px-10 py-5 mx-auto"
@@ -79,7 +84,7 @@
           </div>
           <ul
             tabindex="0"
-            class="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow"
+            class="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow font-medium"
           >
             <li class="font-bold"><a>Home</a></li>
             <li><a>Services</a></li>
@@ -117,7 +122,7 @@
         <h1 class="lg:text-6xl sm:text-3xl font-extrabold w-11/12 md:w-4/5">
           A barn house of this design has a striking appearance
         </h1>
-        <p class="w-11/12 md:w-9/12 text-sm xs:text-base">
+        <p class="w-11/12 md:w-9/12 text-sm xs:text-base secondary-text">
           The barn house captivates with its blend of rustic charm and modern
           sophistication, featuring weathered wood, sleek metal accents, and
           large windows that flood the space with natural light.
@@ -132,5 +137,76 @@
         </button>
       </div>
     </header>
+
+    <!-- main seciton -->
+    <main>
+      <!-- we design section -->
+      <section class="bg-[#f4f4f4] py-20">
+        <div class="md:container px-5 md:px-10 mx-auto">
+          <div
+            class="flex flex-col lg:flex-row gap-9 items-center text-center lg:text-left"
+          >
+            <!-- text content -->
+            <div>
+              <img
+                class="relative -top-5 -left-12 -rotate-10 hidden lg:flex"
+                src="./B10-Assignment-03/assets/Vector.png"
+                alt=""
+              />
+              <button
+                class="btn bg-white px-5 rounded-full font-bold text-sm mb-4"
+              >
+                <i class="fa-solid fa-arrow-right"></i> About Us
+              </button>
+              <h1 class="text-2xl md:text-4xl font-extrabold w-11/12 mb-6">
+                We design thoughtful, liveable spaces
+              </h1>
+              <p class="mb-6 secondary-text">
+                The barn house captivates with its blend of rustic charm and
+                modern sophistication, featuring weathered wood, sleek metal
+                accents.
+              </p>
+              <div
+                class="flex flex-col sm:flex-row lg:flex-col gap-5 lg:gap-10 text-left"
+              >
+                <!-- card 1 -->
+                <div class="flex items-center gap-5 p-5 bg-white rounded-xl">
+                  <img src="./B10-Assignment-03/assets/commercial.png" alt="" />
+                  <!-- text content -->
+                  <div>
+                    <h1 class="text-xl font-extrabold mb-5">Commercial</h1>
+                    <p class="secondary-text text-sm md:text-base">
+                      The barn house captivates with its blend of rustic charm
+                      and modern.
+                    </p>
+                  </div>
+                </div>
+                <!-- card 2 -->
+                <div class="flex items-center gap-5 p-5 bg-white rounded-xl">
+                  <img
+                    src="./B10-Assignment-03/assets/residential.png"
+                    alt=""
+                  />
+                  <!-- text content -->
+                  <div>
+                    <h1 class="text-xl font-extrabold mb-5">Residential</h1>
+                    <p class="secondary-text text-sm md:text-base">
+                      The barn house captivates with its blend of rustic charm
+                      and modern.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- image content -->
+            <img
+              class="h-auto w-full lg:w-auto"
+              src="./B10-Assignment-03/assets/Rectangle.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
