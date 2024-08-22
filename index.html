@@ -1,21 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Assignment 3</title>
-  </head>
-  <body>
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <title>Rinterio: Crafting Your Dream Home, Inside and Out</title>
 
-    <!-- lottifiles -->
-    <lottie-player
-      src="https://lottie.host/b0f69b6d-e070-43d9-98fe-6a268c171c31/wWpDc9bix7.json"
-      background="transparent"
-      speed="1"
-      style="height: 100vh; overflow: hidden"
-      loop
-      autoplay
-    ></lottie-player>
+    <!-- daisyUI -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/ac005f8968.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- manrope -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      .font-manrope {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="font-manrope">
+    <!-- header -->
+    <header class="bg-[#f7f7f7]">
+      <!-- navbar -->
+      <div class="navbar flex justify-between md:container md:px-10 py-5">
+        <div class="navbar-start">
+          <a
+            class="btn btn-ghost text-4xl font-extrabold hover:bg-transparent hover:opacity-70"
+            ><i
+              class="-rotate-45 bg-lime-300 p-2 rounded-full fa-solid fa-arrow-right"
+            ></i
+            >Rinterio</a
+          >
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li class="font-bold"><a>Home</a></li>
+            <li><a>Services</a></li>
+            <li><a>Porfolio</a></li>
+            <li><a>Blogs</a></li>
+            <li><a>Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end hidden lg:flex gap-5">
+          <i
+            class="bg-white p-3 rounded-full hover:bg-[#f7f7f7] fa-solid fa-magnifying-glass"
+          ></i>
+          <i
+            class="bg-white p-3 rounded-full hover:bg-[#f7f7f7] fa-solid fa-cart-shopping"
+          ></i>
+          <a class="btn bg-lime-300 hover:bg-lime-200 font-extrabold"
+            >Book Consult<i
+              class="-rotate-45 bg-gray-900 text-white p-2 rounded-full fa-solid fa-arrow-right"
+            ></i
+          ></a>
+        </div>
+        <!-- dropdown button for -->
+
+        <div class="dropdown dropdown-end">
+          <div tabindex="0" role="button" class="btn btn-ghost m-1 lg:hidden">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <ul
+            tabindex="0"
+            class="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow"
+          >
+            <li class="font-bold"><a>Home</a></li>
+            <li><a>Services</a></li>
+            <li><a>Porfolio</a></li>
+            <li><a>Blogs</a></li>
+            <li><a>Contact Us</a></li>
+            <li class="flex flex-row">
+              <i
+                class="bg-white p-3 rounded-full hover:bg-[#f7f7f7] fa-solid fa-magnifying-glass"
+              ></i>
+              <i
+                class="bg-white p-3 rounded-full hover:bg-[#f7f7f7] fa-solid fa-cart-shopping"
+              ></i>
+            </li>
+            <li>
+              <a class="btn bg-lime-300 hover:bg-lime-200 font-extrabold"
+                >Book Consult<i
+                  class="-rotate-45 bg-gray-900 text-white p-2 rounded-full fa-solid fa-arrow-right"
+                ></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
   </body>
 </html>
