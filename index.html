@@ -66,10 +66,10 @@
         </div>
         <div class="navbar-end hidden lg:flex gap-5">
           <i
-            class="bg-white p-3 rounded-full hover:bg-[#f7f7f7] fa-solid fa-magnifying-glass"
+            class="bg-white p-3 rounded-full hover:bg-transparent fa-solid fa-magnifying-glass"
           ></i>
           <i
-            class="bg-white p-3 rounded-full hover:bg-[#f7f7f7] fa-solid fa-cart-shopping"
+            class="bg-white p-3 rounded-full hover:bg-transparent fa-solid fa-cart-shopping"
           ></i>
           <a class="btn bg-lime-300 hover:bg-lime-200 font-extrabold"
             >Book Consult<i
@@ -129,7 +129,7 @@
           large windows that flood the space with natural light.
         </p>
         <button
-          class="bg-lime-200 px-7 py-2 rounded-full border border-lime-300 hover:opacity-80 w-11/12 sm:w-auto font-bold"
+          class="btn bg-lime-200 px-7 py-2 rounded-full border border-lime-300 hover:bg-lime-300 hover:opacity-80 w-11/12 sm:w-auto font-bold"
         >
           View Details
           <i
@@ -201,7 +201,7 @@
             </div>
             <!-- image content -->
             <img
-              class="h-auto w-full lg:w-auto"
+              class="h-auto w-full lg:h-auto"
               src="./B10-Assignment-03/assets/Rectangle.png"
               alt=""
             />
@@ -242,65 +242,172 @@
       </section>
 
       <!-- how we work section -->
-      <section class="bg-[#f4f4f4] px-5 md:px-10 py-10 md:py-20">
+      <section class="bg-[#f4f4f4] py-10 md:py-20">
+        <div class="md:container mx-auto px-5">
+          <!-- text content -->
+          <div class="text-center justify-center">
+            <button
+              class="btn bg-white px-5 rounded-full font-bold text-sm mb-4 mx-auto"
+            >
+              <i class="fa-solid fa-arrow-right"></i> How we works
+            </button>
+            <h1
+              class="text-2xl md:text-4xl font-extrabold w-11/12 mb-6 mx-auto"
+            >
+              Our Works Process
+            </h1>
+            <p class="mb-6 secondary-text sm:w-4/6 mx-auto">
+              The barn house captivates with its blend of rustic charm and
+              modern sophistication, featuring weathered wood, sleek metal
+              accents.
+            </p>
+          </div>
+          <!-- cards -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- card 1 -->
+            <div class="p-6 space-y-2.5 bg-pink-200 rounded-2xl">
+              <img src="./B10-Assignment-03/assets/concept.png" alt="" />
+              <h1 class="font-extrabold text-lg">Concept</h1>
+              <p class="secondary-text">
+                The barn house captivates with its blend of rustic charm and
+                modern.
+              </p>
+            </div>
+            <!-- card 2 -->
+            <div class="p-6 space-y-2.5 bg-amber-200 rounded-2xl">
+              <img src="./B10-Assignment-03/assets/flow-chart.png" alt="" />
+              <h1 class="font-extrabold text-lg">Design Process</h1>
+              <p class="secondary-text">
+                The barn house captivates with its blend of rustic charm and
+                modern.
+              </p>
+            </div>
+            <!-- card 3 -->
+            <div class="p-6 space-y-2.5 bg-emerald-200 rounded-2xl">
+              <img src="./B10-Assignment-03/assets/vision.png" alt="" />
+              <h1 class="font-extrabold text-lg">Supervision</h1>
+              <p class="secondary-text">
+                The barn house captivates with its blend of rustic charm and
+                modern.
+              </p>
+            </div>
+            <!-- card 4 -->
+            <div class="p-6 space-y-2.5 bg-blue-300 rounded-2xl">
+              <img
+                src="./B10-Assignment-03/assets/budget-planning.png"
+                alt=""
+              />
+              <h1 class="font-extrabold text-lg">Budget Planning</h1>
+              <p class="secondary-text">
+                The barn house captivates with its blend of rustic charm and
+                modern.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- our latest portfolio section -->
+      <section
+        class="md:container mx-auto px-5 md:px-10 py-10 md:py-20 space-y-10"
+      >
         <!-- text content -->
-        <div class="text-center justify-center">
+        <div class="text-center justify-center space-y-5">
           <button
-            class="btn bg-white px-5 rounded-full font-bold text-sm mb-4 mx-auto"
+            class="btn bg-lime-200 px-7 py-2 rounded-full border border-lime-300 hover:bg-lime-300 hover:opacity-80 w-11/12 sm:w-auto font-bold"
           >
-            <i class="fa-solid fa-arrow-right"></i> How we works
+            <i class="fa-solid fa-arrow-right"></i>
+            Explore our Latest works
           </button>
           <h1 class="text-2xl md:text-4xl font-extrabold w-11/12 mb-6 mx-auto">
-            Our Works Process
+            Our Latest Portfolio
           </h1>
           <p class="mb-6 secondary-text sm:w-4/6 mx-auto">
             The barn house captivates with its blend of rustic charm and modern
             sophistication, featuring weathered wood, sleek metal accents.
           </p>
         </div>
-        <!-- cards -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- first grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-5">
           <!-- card 1 -->
-          <div class="p-6 space-y-2.5 bg-pink-200 rounded-2xl">
-            <img src="./B10-Assignment-03/assets/concept.png" alt="" />
-            <h1 class="font-extrabold text-lg">Concept</h1>
-            <p class="secondary-text">
-              The barn house captivates with its blend of rustic charm and
-              modern.
-            </p>
+          <div
+            class="md:col-span-2 flex flex-col sm:flex-row gap-5 sm:items-center p-5 rounded-2xl border"
+          >
+            <img src="./B10-Assignment-03/assets/img1.png" alt="" />
+            <div class="space-y-2.5">
+              <h1 class="font-extrabold text-xl">Commercial</h1>
+              <p class="secondary-text">
+                The barn house captivates with its blend of rustic charm and
+                modern. The barn house captivates with its blend of rustic charm
+                and modern .
+              </p>
+              <button
+                class="btn p-0 bg-transparent shadow-none border border-transparent hover:bg-transparent hover:opacity-80 hover:border-none font-extrabold text-xl"
+              >
+                View Details
+                <i
+                  class="-rotate-45 bg-lime-300 p-2 rounded-full fa-solid fa-arrow-right"
+                ></i>
+              </button>
+            </div>
           </div>
-          <!-- card 2 -->
-          <div class="p-6 space-y-2.5 bg-amber-200 rounded-2xl">
-            <img src="./B10-Assignment-03/assets/flow-chart.png" alt="" />
-            <h1 class="font-extrabold text-lg">Design Process</h1>
-            <p class="secondary-text">
-              The barn house captivates with its blend of rustic charm and
-              modern.
-            </p>
+          <!-- image 1 -->
+          <img
+            class="bg-white p-5 rounded-2xl border w-full h-64"
+            src="./B10-Assignment-03/assets/img2.png"
+            alt=""
+          />
+          <!-- image 2 -->
+          <img
+            class="lg:hidden bg-white p-5 rounded-2xl border w-full h-64"
+            src="./B10-Assignment-03/assets/img5.png"
+            alt=""
+          />
+        </div>
+        <!-- second grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+          <!-- image 1 -->
+          <img
+            class="bg-white p-5 rounded-2xl border w-full h-64 hidden lg:flex"
+            src="./B10-Assignment-03/assets/img3.png"
+            alt=""
+          />
+          <!-- card 1 -->
+          <div
+            class="md:col-span-2 flex flex-col sm:flex-row gap-5 sm:items-center p-5 rounded-2xl border"
+          >
+            <img src="./B10-Assignment-03/assets/img1.png" alt="" />
+            <div class="space-y-2.5">
+              <h1 class="font-extrabold text-xl">Commercial</h1>
+              <p class="secondary-text">
+                The barn house captivates with its blend of rustic charm and
+                modern. The barn house captivates with its blend of rustic charm
+                and modern .
+              </p>
+              <button
+                class="btn p-0 bg-transparent shadow-none border border-transparent hover:bg-transparent hover:opacity-80 hover:border-none font-extrabold text-xl"
+              >
+                View Details
+                <i
+                  class="-rotate-45 bg-lime-300 p-2 rounded-full fa-solid fa-arrow-right"
+                ></i>
+              </button>
+            </div>
           </div>
-          <!-- card 3 -->
-          <div class="p-6 space-y-2.5 bg-emerald-200 rounded-2xl">
-            <img src="./B10-Assignment-03/assets/vision.png" alt="" />
-            <h1 class="font-extrabold text-lg">Supervision</h1>
-            <p class="secondary-text">
-              The barn house captivates with its blend of rustic charm and
-              modern.
-            </p>
-          </div>
-          <!-- card 4 -->
-          <div class="p-6 space-y-2.5 bg-blue-300 rounded-2xl">
-            <img src="./B10-Assignment-03/assets/budget-planning.png" alt="" />
-            <h1 class="font-extrabold text-lg">Budget Planning</h1>
-            <p class="secondary-text">
-              The barn house captivates with its blend of rustic charm and
-              modern.
-            </p>
-          </div>
+          <!-- image 2 -->
+          <img
+            class="bg-white p-5 rounded-2xl border w-full h-64 lg:hidden"
+            src="./B10-Assignment-03/assets/img3.png"
+            alt=""
+          />
+          <!-- image 3 -->
+          <img
+            class="bg-white p-5 rounded-2xl border w-full h-64"
+            src="./B10-Assignment-03/assets/img5.png"
+            alt=""
+          />
         </div>
       </section>
-
-      <!-- our latest portfolio section -->
-      <section class="px-5 md:px-10 py-10 md:py-20"></section>
     </main>
   </body>
 </html>
